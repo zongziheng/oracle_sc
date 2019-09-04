@@ -1,7 +1,14 @@
 REM
-REM wait event.
-REM zongziheng
+REM File name: 	dbwait.sql
+REM Purpose:	wait event.
+REM Warning:
+REM Author: 	Ahern
+REM Usage: 		
+REM Example:	sqlplus / as sysdba	@dbwait
+REM Version: 
+REM Notes:
 REM
+
 set linesize 300
 set pagesize 5000
 col event for a35
